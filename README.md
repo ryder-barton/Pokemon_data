@@ -1,13 +1,6 @@
-WHAT THIS CODE DOES:
+WHAT THE CODE DOES:
 
-This code extracts data from the Pokeapi website, shows the data in the terminal, and then places that data into an Excel file. 
-The data this code collects includes the following:
-  The ID number for each Pokemon
-  Name of each Pokemon
-  Types of each Pokemon
-  Height of each Pokemon
-  Weight of each Pokemon
-This code only extracts the data from the original 151 Pokemon. However, by changing the range in LINE 10, it is possible to gather data on more or less Pokemon.
+pokedata.py extracts the ID number, name, types, height, and weight of the original 151 Pokemon from the Pokeapi website. pokedata_excel.py puts this data into an excel file titled "pokedata.xlsx". pokedata_type_excel.py puts the data into an excel file but seperates the pokemon by type and places each type into a different sheets in the workbook (note: if a pokemon has two types they will be placed in two sheets). 
 
 
 WHY I CHOSE THIS PROJECT:
